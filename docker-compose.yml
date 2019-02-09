@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  iu8_legacy:
+    container_name: iu8_legacy
+    image: iu8_legacy
+    build: .
+    ports:
+      - 127.0.0.1:80:80
